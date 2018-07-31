@@ -1,0 +1,5 @@
+# no need for node modules
+/node_modules
+
+# no need for lock files
+/*-lock.json
