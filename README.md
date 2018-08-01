@@ -27,3 +27,14 @@ even though that is not the case.
 
 NOTE:
 Using Bootstrap version 3 still since React Bootstrap currently only supports that version.
+
+How to run:
+Currently only a development mode exists.
+
+To run it first make sure to install dependencies by running:
+npm i
+
+Then, to run the web application itself just run:
+npm run start-dev
+
+<a href="https://imgur.com/jFakRal"><img src="https://i.imgur.com/jFakRal.png" title="source: imgur.com" /></a>
