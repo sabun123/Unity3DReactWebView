@@ -21,6 +21,34 @@ module.exports = {
                 use: {
                     loader: "babel-loader"
                 }
+            },
+            {
+                test:/\.css$/,
+                use: ["style-loader","css-loader"]
+            },
+            {
+                test:/\.png$/,
+                use:["url-loader"]
+            },
+            {
+                test:/\.jpg$/,
+                use:["file-loader"]
+            },
+            {
+                test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
+                use: ['url-loader']
+            },
+            {
+                test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+                use: [ 'url-loader']
+            },
+            {
+                test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+                use: ['url-loader']
+            },
+            {
+                test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+                use: [ 'url-loader']
             }
         ]
     },

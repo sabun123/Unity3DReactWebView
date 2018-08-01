@@ -7,6 +7,10 @@ import createHistory from 'history/createBrowserHistory';
 
 import ContainerMainPage from './containers/ContainerMainPage';
 
+// import Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap-theme.min.css';
+
 import store from './store';
 const history = createHistory();
 
