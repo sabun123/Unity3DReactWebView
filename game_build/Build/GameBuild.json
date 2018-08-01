@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Blessings Never Last",
+"dataUrl": "GameBuild.data.unityweb",
+"asmCodeUrl": "GameBuild.asm.code.unityweb",
+"asmMemoryUrl": "GameBuild.asm.memory.unityweb",
+"asmFrameworkUrl": "GameBuild.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
